@@ -105,6 +105,10 @@ const Header = ({ handleOpen, filters, onFilterChange }) => {
                         <img src={logo} alt="logo" style={{ height: 50 }} />
                     </Box>
 
+                    <Box>
+                        <Typography variant="secondary" sx={{fontSize:20, fontFamily:"serif"}}>Job Application Platform</Typography>
+                    </Box>
+
                     {
                         isMobile &&
                         <Box
