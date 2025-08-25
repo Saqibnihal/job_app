@@ -1,0 +1,115 @@
+.main-container {
+    background: white;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.company-image {
+    padding: 10px 5px;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    margin: 10px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 0px #C6BFBF40;
+    overflow: hidden;
+}
+
+.logo-image img {
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.timing {
+    width: 75px;
+    height: 33px;
+    /* background: #B0D9FF; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+
+.role {
+    font-weight: bold;
+    padding: 3px 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.job-details {
+    display: flex;
+    gap: 15px;
+    height: 47px;
+    margin-left: 18px;
+    align-items: center;
+}
+
+span {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    color: #5A5A5A;
+    align-items: center;
+}
+
+.job-details span img {
+    width: "20px";
+    height: "20px";
+}
+
+.description-area {
+    padding: 10px 18px;
+}
+
+li {
+    position: relative;
+    padding-left: 1.025em;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 0px;
+    color: #555555;
+    list-style: none;
+}
+
+.description-area li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    color: #555555;
+    font-size: 1em;
+}
+
+
+.apply-btn {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    width: 285px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    color: #fffdfdea;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-section {
+    text-align: center;
+    margin: 10px auto;
+}
